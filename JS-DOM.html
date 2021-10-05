@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Examen.css">
+  </head>
+<body>
+
+ <h1>Captura de registros </h1> <h4 id="Titulo"></h4>
+  
+ <!--BOTONES-->
+
+  Nombre: <br> <input type="text" id="Nombre" >
+  <br>  
+  Efectos que causa en los humanos: <br> <input type="text" id="Efectosquecausaenloshumanos" >
+  <br>  
+  Tratamiento: <br> <input type="text" id="Tratamiento" >
+  <br>  
+  Fotografia: <br> <input type="text" id="Fotografia">
+  <br>  
+  <button onclick="Agregar()"id="Nuevo">Nuevo</button>
+  <button onclick="Agregar()">Editar</button>
+  <button onclick="Agregar()">Eliminar</button>
+  <br>
+  <button onclick="Primero()">Primero</button>
+  <button onclick="Siguiente()">Siguiente</button>
+  <button onclick="Anterior()">Anterior</button>
+  <button onclick="Ultimo()">Ultimo</button>
+  <hr>
+
+  <label for="campo">   Seleccione el campo a buscar :</label>
+  <select name="campo" id="campo">
+    <option value="Nombre" >Nombre</option>
+    <option value="Efectosquecausaenloshumanos" >Efectos que causa en los humanos</option>
+    <option value="Tratamiento" >Tratamiento</option>
+    <option value="Fotografia" >Fotografia</option>
+  </select>
+  <input type="text" id="textoabuscar">
+  <button onclick="Buscar()"> Buscar </button>
+  <hr>
+  <p id="resultado"></p>
+
+  <script src=""></script>
+
+</body>
+</html>
